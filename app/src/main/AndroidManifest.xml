@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Svasth">
         <activity
-            android:name=".registerActivity"
+            android:name=".loginActivity"
             android:exported="true" />
         <activity
-            android:name=".loginActivity"
+            android:name=".HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".registerActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
