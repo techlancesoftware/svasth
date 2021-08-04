@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Svasth">
         <activity
+            android:name=".UserDashboard"
+            android:exported="true" />
+        <activity
             android:name=".loginActivity"
             android:exported="true" />
         <activity
