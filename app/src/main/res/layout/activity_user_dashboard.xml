@@ -1,222 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:fitsSystemWindows="true"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="20dp">
-
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_centerVertical="true"
-            android:src="@drawable/menu_icon"/>
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/app_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="StaySvasth"
-            android:textSize="24sp"
-            android:fontFamily="@font/roboto"
-            android:layout_centerHorizontal="true"/>
-
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_below="@id/app_name"
-            android:background="@color/white"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            android:elevation="8dp">
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/search_text"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="15dp"/>
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:src="@drawable/search_icon"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="15dp"/>
-
-
-
-
-
-        </RelativeLayout>
-
-    </RelativeLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-
-            <RelativeLayout
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/card_1"
-                android:elevation="8dp"
-                android:layout_margin="10dp">
-
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:src="@drawable/covid_icon"
-                    android:layout_centerInParent="true"/>
-
-
-
-            </RelativeLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:text="Total Cases"
-                android:gravity="center_horizontal"
-                android:textSize="10dp"/>
-
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-
-            <RelativeLayout
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/card_1"
-                android:elevation="8dp"
-                android:layout_margin="10dp">
-
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:src="@drawable/covid_icon"
-                    android:layout_centerInParent="true"/>
-
-
-
-            </RelativeLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:text="Today's Death"
-                android:gravity="center_horizontal"
-                android:textSize="10dp"/>
-
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-
-            <RelativeLayout
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/card_1"
-                android:elevation="8dp"
-                android:layout_margin="10dp">
-
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:src="@drawable/covid_icon"
-                    android:layout_centerInParent="true"/>
-
-
-
-            </RelativeLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:text="Today's Discharge"
-                android:gravity="center_horizontal"
-                android:textSize="10dp"/>
-
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-
-            <RelativeLayout
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/card_1"
-                android:elevation="8dp"
-                android:layout_margin="10dp">
-
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:src="@drawable/covid_icon"
-                    android:layout_centerInParent="true"/>
-
-
-
-            </RelativeLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:text="BF Active Cases"
-                android:gravity="center_horizontal"
-                android:textSize="10dp"/>
-
-
-
-        </LinearLayout>
-
-
-    </LinearLayout>
-
-</LinearLayout>
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="326dp"
+        android:layout_height="81dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="622dp"
+        app:srcCompat="@drawable/logo_splash"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="156dp"
+        android:layout_height="116dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="456dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/hospitals"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="156dp"
+        android:layout_height="116dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="85dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/hospitals"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="156dp"
+        android:layout_height="116dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="86dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/hospitals"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <!--tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="671dp"--> />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="156dp"
+        android:layout_height="116dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="269dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/hospitals"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="156dp"
+        android:layout_height="116dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="271dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/hospitals"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="156dp"
+        android:layout_height="116dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="455dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/hospitals"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="671dp" />
+
+</RelativeLayout>
