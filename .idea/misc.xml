@@ -3,18 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_bed.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_care.xml" value="0.264" />
-        <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_care_center.xml" value="0.8" />
-        <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_essentials.xml" value="0.24010416666666667" />
-        <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_helpline.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Sanjana Srinath/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_care.xml" value="0.2596491228070175" />
+        <entry key="..\:/Users/Sanjana Srinath/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_care_center.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Sanjana Srinath/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_essentials.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/Sanjana Srinath/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_user_dashboard.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_home.xml" value="1.2" />
-        <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_hospitals.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_scroll.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/activity_user_dashboard.xml" value="0.264" />
         <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/app_bar_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/content_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Sheethal/AndroidStudioProjects/svasth/app/src/main/res/layout/nav_header_home.xml" value="0.25416666666666665" />
