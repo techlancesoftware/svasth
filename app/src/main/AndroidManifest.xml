@@ -25,6 +25,9 @@
             android:name=".hospitals"
             android:exported="true" />
         <activity
+            android:name=".CareCenter"
+            android:exported="true" />
+        <activity
             android:name=".UserDashboard"
             android:exported="true" />
         <activity
