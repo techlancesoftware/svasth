@@ -30,6 +30,8 @@
             android:id="@+id/bed"
             android:layout_width="400dp"
             android:layout_height="200dp"
+            android:clickable="true"
+            android:contextClickable="true"
             android:insetLeft="100dp"
             android:insetTop="0dp"
             android:insetRight="100dp"
