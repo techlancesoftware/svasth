@@ -69,17 +69,16 @@
             android:textColor="#8BC34A"
             android:textSize="20sp" />
 
-        <EditText
-            android:id="@+id/editTextTextMultiLine"
+        <TextView
+            android:id="@+id/multiAutoCompleteTextView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:height="50dp"
-            android:ems="10"
-            android:gravity="start|top"
-            android:inputType="textMultiLine"
+            android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:text="Nallur Pala Parishishta Vargagala Vidyarthinilaya, Ummatthuru, Hunsur - 571105"
-            android:textSize="16sp" />
+            android:text="Nallur Pala Parishishta Vargagala
+Vidyarthinilaya, Ummatthuru, Hunsur -571105"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView5"
@@ -103,17 +102,16 @@
             android:textColor="#8BC34A"
             android:textSize="20sp" />
 
-        <EditText
-            android:id="@+id/editTextTextMultiLine2"
+        <TextView
+            android:id="@+id/multiAutoCompleteTextView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:height="50dp"
-            android:ems="10"
-            android:gravity="start|top"
-            android:inputType="textMultiLine"
-            android:text="Morarji Desai Residential School, Kaggundi Village, Periyapatna Taluk, Mysuru District – 571107"
+            android:fontFamily="sans-serif"
             android:paddingLeft="20dp"
-            android:textSize="16sp" />
+            android:text="Morarji Desai Residential School, Kaggundi
+Village, Periyapatna Taluk, Mysuru District-571107"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView20"
@@ -135,15 +133,15 @@
             android:textColor="#8BC34A"
             android:textSize="20sp" />
 
-        <EditText
-            android:id="@+id/textView50"
+        <TextView
+            android:id="@+id/multiAutoCompleteTextView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:height="48dp"
             android:fontFamily="sans-serif"
-            android:text="Kaggere K R Nagara"
             android:paddingLeft="20dp"
-            android:textSize="16sp" />
+            android:text="Kaggere K R Nagara"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView51"
