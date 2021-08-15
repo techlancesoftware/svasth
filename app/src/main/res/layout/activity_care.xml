@@ -17,6 +17,12 @@
             android:layout_height="149dp"
             app:srcCompat="@drawable/logo_splash" />
 
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
@@ -69,6 +75,12 @@
             android:text="Total Beds : 500\nFilled Beds : 57\nVacant Beds : 443"
             android:textSize="14sp" />
 
+
+        <View
+            android:id="@+id/divider7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
 
         <Space
             android:layout_width="match_parent"

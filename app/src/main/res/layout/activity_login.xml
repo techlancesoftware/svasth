@@ -12,9 +12,9 @@
         android:id="@+id/login_logo"
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:src="@drawable/logo_splash"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
+        android:src="@drawable/logo_splash"
         tools:ignore="ContentDescription" />
 
     <EditText
@@ -56,30 +56,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/login_password_hint"
-        android:layout_marginTop="5dp">
-
-        <CheckBox
-            android:id="@+id/remember_me"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/Material.Drawable.CheckBox"
-            android:text="Remember me"
-            android:gravity="center_vertical"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:layout_marginLeft="22dp"/>
-
-        <TextView
-            android:id="@+id/forget_password"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Forgot Password?"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="16sp"
-            android:layout_marginLeft="80dp"/>
-
-    </LinearLayout>
+        android:layout_marginTop="5dp"/>
 
     <Button
         android:id="@+id/splash_button_login"
@@ -87,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/liner_layout_1"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="15dp"
         android:background="@drawable/buttons"
         android:padding="5dp"

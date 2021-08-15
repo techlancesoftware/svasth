@@ -9,7 +9,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            app:srcCompat="@drawable/logo_splash" />
 
         <TextView
             android:id="@+id/textView"
@@ -32,6 +39,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="10dp"
             android:text="Government Hospitals"
             android:textAlignment="center"
             android:textColor="#8BC34A"
@@ -54,6 +62,7 @@
             android:paddingLeft="40dp"
             android:text="Ed Hospital Premises, Back of HFWTC Metgalli, Mysore – 570016"
             android:textSize="14sp" />
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
@@ -66,7 +75,6 @@
         <Space
             android:layout_width="match_parent"
             android:layout_height="30dp" />
-
 
 
         <TextView
@@ -97,6 +105,7 @@ Mysore – 570001" />
         <Space
             android:layout_width="match_parent"
             android:layout_height="30dp" />
+
         <TextView
             android:id="@+id/multiAutoCompleteTextView2"
             android:layout_width="match_parent"
@@ -124,6 +133,7 @@ Mysore – 570001" />
         <Space
             android:layout_width="match_parent"
             android:layout_height="30dp" />
+
         <TextView
             android:id="@+id/multiAutoCompleteTextView3"
             android:layout_width="match_parent"
@@ -151,6 +161,7 @@ Mysore – 570001" />
         <Space
             android:layout_width="match_parent"
             android:layout_height="30dp" />
+
         <TextView
             android:id="@+id/multiAutoCompleteTextView4"
             android:layout_width="match_parent"
@@ -166,20 +177,23 @@ Mysore – 570001" />
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="40dp"
+            android:paddingBottom="20dp"
             android:text="Kumbarakoppal,
 Mahadeshwara Badavane Layout,
 Mysuru, Karnataka 570016" />
 
-        <Space
+        <View
+            android:id="@+id/divider9"
             android:layout_width="match_parent"
-            android:layout_height="30dp" />
-
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
 
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="20dp"
             android:text="Private Hospitals"
             android:textAlignment="center"
             android:textColor="#8BC34A"
@@ -210,6 +224,7 @@ Mysore 570011" />
             android:layout_height="wrap_content"
             android:paddingLeft="40dp"
             android:text="cauveryhospital.corporate@gmail.com" />
+
         <TextView
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
@@ -220,15 +235,16 @@ Mysore 570011" />
         <Space
             android:layout_width="match_parent"
             android:layout_height="30dp" />
+
         <TextView
-        android:id="@+id/multiAutoCompleteTextView6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif"
-        android:paddingLeft="20dp"
-        android:text="Brindavan Hospital"
-        android:textSize="16sp"
-        android:textStyle="bold" />
+            android:id="@+id/multiAutoCompleteTextView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:text="Brindavan Hospital"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView15"
@@ -245,6 +261,7 @@ Mysore 570012" />
             android:layout_height="wrap_content"
             android:paddingLeft="40dp"
             android:text="brindavanhospital.mysore@gmail.com" />
+
         <TextView
             android:id="@+id/textView17"
             android:layout_width="wrap_content"
@@ -255,6 +272,7 @@ Mysore 570012" />
         <Space
             android:layout_width="match_parent"
             android:layout_height="30dp" />
+
         <TextView
             android:id="@+id/multiAutoCompleteTextView7"
             android:layout_width="match_parent"
@@ -278,6 +296,7 @@ Mysore 570012" />
             android:layout_height="wrap_content"
             android:paddingLeft="40dp"
             android:text="krishnahospital.ngud@outlook.com" />
+
         <TextView
             android:id="@+id/textView20"
             android:layout_width="wrap_content"
@@ -288,6 +307,7 @@ Mysore 570012" />
         <Space
             android:layout_width="match_parent"
             android:layout_height="30dp" />
+
         <TextView
             android:id="@+id/multiAutoCompleteTextView8"
             android:layout_width="match_parent"
@@ -313,6 +333,7 @@ Mysore570009" />
             android:layout_height="wrap_content"
             android:paddingLeft="40dp"
             android:text="sigmalifecare@gmail.com" />
+
         <TextView
             android:id="@+id/textView24"
             android:layout_width="wrap_content"
@@ -323,6 +344,7 @@ Mysore570009" />
         <Space
             android:layout_width="match_parent"
             android:layout_height="30dp" />
+
         <TextView
             android:id="@+id/multiAutoCompleteTextView9"
             android:layout_width="match_parent"
@@ -347,16 +369,13 @@ Saraguru,Mysore 571121" />
             android:layout_height="wrap_content"
             android:paddingLeft="40dp"
             android:text="vmh@svym.org.in" />
+
         <TextView
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="40dp"
             android:text="Ph No:8228265412" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="30dp" />
 
 
     </LinearLayout>
