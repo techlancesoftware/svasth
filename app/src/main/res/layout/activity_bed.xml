@@ -7,11 +7,18 @@
     tools:context=".care">
 
     <TableLayout
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="812dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/logo_splash" />
 
         <TextView
             android:id="@+id/textView"
@@ -19,6 +26,7 @@
             android:layout_height="55dp"
             android:layout_marginTop="20dp"
             android:text="     COVID-19 BED AVAILABILITY\n                           Details"
+            android:textAlignment="center"
             android:textColor="#8BC34A"
             android:textColorLink="#8BC34A"
             android:textSize="24sp" />
@@ -35,265 +43,258 @@
 
         <TextView
             android:id="@+id/textView22"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="55dp"
             android:layout_marginTop="20dp"
             android:text="Government Hospitals Bed Availability"
-            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:textColor="#8BC34A"
             android:textColorLink="#8BC34A"
             android:textSize="22sp"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="30dp" />
 
-
         <TableRow
-            android:layout_height="130dp"
-            android:background="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#017C7B"
             android:padding="5dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Sl. No."
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp"/>
+                android:textSize="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Hospital Name"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp"/>
+                android:textSize="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Oxygenated"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:padding="5dp"
                 android:textSize="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Ventilator"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:padding="5dp"
                 android:textSize="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="ICU"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:padding="5dp"
                 android:textSize="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Normal"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:padding="5dp"
                 android:textSize="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Total"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp"/>
+                android:textSize="15dp" />
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Oxygenated"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:padding="5dp"
                 android:textSize="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Ventilator"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:padding="5dp"
                 android:textSize="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="ICU"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:padding="5dp"
                 android:textSize="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Normal"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:padding="5dp"
                 android:textSize="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:padding="5dp"
                 android:text="Total"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:padding="5dp"
                 android:textSize="15dp" />
-
 
 
         </TableRow>
 
         <TableRow
-            android:layout_height="130dp"
-            android:background="@color/black"
-            android:padding="5dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#79D1C9"
+        android:padding="5dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="District Hospital"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="District Hospital"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="158"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="158"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="12"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="12"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="25"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="25"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="58"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="58"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="253"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp"/>
-
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="108"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="0"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="13"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="58"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="179"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:padding="5dp"
-                android:textSize="15dp"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="253"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="108"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="13"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="58"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
-                />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="179"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
 
-        </TableRow>
+    </TableRow>
 
         <TableRow
             android:layout_height="130dp"
-            android:background="@color/black"
+            android:background="#79D1C9"
             android:padding="5dp">
 
             <TextView
@@ -417,7 +418,7 @@
 
         <TableRow
             android:layout_height="130dp"
-            android:background="@color/black"
+            android:background="#79D1C9"
             android:padding="5dp">
 
             <TextView
@@ -541,7 +542,7 @@
 
         <TableRow
             android:layout_height="130dp"
-            android:background="@color/black"
+            android:background="#79D1C9"
             android:padding="5dp">
 
             <TextView
@@ -665,7 +666,7 @@
 
         <TableRow
             android:layout_height="130dp"
-            android:background="@color/black"
+            android:background="#79D1C9"
             android:padding="5dp">
 
             <TextView
@@ -789,7 +790,7 @@
 
         <TableRow
             android:layout_height="130dp"
-            android:background="@color/black"
+            android:background="#79D1C9"
             android:padding="5dp">
 
             <TextView
@@ -900,20 +901,13 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:padding="5dp"
-                android:textSize="15dp"
-
-
-
-
-
-
-                />
+                android:textSize="15dp" />
 
         </TableRow>
 
         <TableRow
             android:layout_height="130dp"
-            android:background="@color/black"
+            android:background="#79D1C9"
             android:padding="5dp">
 
             <TextView
@@ -1024,20 +1018,13 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:padding="5dp"
-                android:textSize="15dp"
-
-
-
-
-
-
-                />
+                android:textSize="15dp" />
 
         </TableRow>
 
         <TableRow
             android:layout_height="130dp"
-            android:background="@color/black"
+            android:background="#79D1C9"
             android:padding="5dp">
 
             <TextView
@@ -1154,7 +1141,7 @@
 
         <TableRow
             android:layout_height="130dp"
-            android:background="@color/black"
+            android:background="#79D1C9"
             android:padding="5dp">
 
             <TextView
@@ -1271,7 +1258,7 @@
 
         <TableRow
             android:layout_height="130dp"
-            android:background="@color/black"
+            android:background="#79D1C9"
             android:padding="5dp">
 
             <TextView
@@ -1388,7 +1375,7 @@
 
         <TableRow
             android:layout_height="130dp"
-            android:background="@color/black"
+            android:background="#79D1C9"
             android:padding="5dp">
 
             <TextView
@@ -1502,8 +1489,8 @@
                 android:textSize="15dp" />
 
         </TableRow>
-
     </TableLayout>
 
+    </HorizontalScrollView>
 
-</HorizontalScrollView>
+
