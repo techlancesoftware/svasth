@@ -54,15 +54,6 @@ public class UserDashboard extends AppCompatActivity {
             }
         });
 
-        helpline= (ImageView) findViewById(R.id.helpline);
-        helpline.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent= new Intent(UserDashboard.this,helpline.class);
-                startActivity(intent);
-            }
-        });
-
         care= (ImageView) findViewById(R.id.careCenter);
         care.setOnClickListener(new View.OnClickListener() {
             @Override

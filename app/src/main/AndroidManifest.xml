@@ -16,9 +16,6 @@
             android:name=".essentials"
             android:exported="true" />
         <activity
-            android:name=".helpline"
-            android:exported="true" />
-        <activity
             android:name=".Bed"
             android:exported="true" />
         <activity

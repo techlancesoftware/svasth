@@ -160,27 +160,6 @@
             android:layout_weight="5"
             android:background="?android:attr/listDivider" />
 
-        <ImageView
-            android:id="@+id/helpline"
-            android:layout_width="400dp"
-            android:layout_height="200dp"
-            android:insetLeft="100dp"
-            android:insetTop="0dp"
-            android:insetRight="100dp"
-            android:insetBottom="10dp"
-            android:scaleType="fitXY"
-            app:srcCompat="@drawable/helpline" />
-
-        <TextView
-            android:id="@+id/textViewHelpline"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="HELPLINE DETAILS"
-            android:textAlignment="center"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-
         <View
             android:id="@+id/divider5"
             android:layout_width="match_parent"
